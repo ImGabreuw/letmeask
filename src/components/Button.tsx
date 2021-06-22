@@ -1,30 +1,11 @@
-import {useState} from "react";
+import {ButtonHTMLAttributes} from "react";
 
-// Tipagem com Typescript
-// type ButtonProps = {
-//     children?: string; // atributo opcional (?:)
-// }
+import "../styles/button.scss"
 
-export function Button() { // Named export
-    // Sem React: (Não funciona bem, pois o conteúdo do botão não é alterado)
-    // let counter = 0;
-    // function increment() {
-    //     counter++;
-    // }
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-    // Com React:
-    const [counter, setCounter] = useState(0);
-
-    function increment() {
-        setCounter(counter + 1);
-        console.log(counter)
-    }
-
+export function Button(props: ButtonProps) {
     return (
-        // <button>{props.children || "Default value"}</button>
-
-        <button onClick={increment}>
-            {counter}
-        </button> // referência de um função
+        <button className="button" {...props} />
     )
 }
