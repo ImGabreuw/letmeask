@@ -2,16 +2,16 @@
 
 [![Author](https://img.shields.io/badge/author-ImGabreuw-835AFD?style=flat-square)](https://github.com/ImGabreuw)
 [![Languages](https://img.shields.io/github/languages/count/ImGabreuw/letmeask?color=%23835AFD&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/ImGabreuw/letmeask?color=835AFD&style=flat-square)](https://github.com/josepholiveira/letmeask/stargazers)
+[![Stars](https://img.shields.io/github/stars/ImGabreuw/letmeask?color=835AFD&style=flat-square)](https://github.com/ImGabreuw/letmeask/stargazers)
 
 <img height="200px" width="300px" src="https://github.com/ImGabreuw/letmeask/blob/master/.github/letmeask-logo.svg">
 
-> REST API for managing beer stocks.
+> Ask your audience's questions in real-time.
 
 ### 📝 TODO
 
 - [X] Lesson 1
-- [ ] Lesson 2
+- [X] Lesson 2
 - [ ] Lesson 3
 - [ ] Lesson 4
 - [ ] Lesson 5
@@ -25,8 +25,10 @@
 
 ## 💻 Technology
 
+* SASS
 * Typescript
 * React
+  * React Router DOM 
 * Firebase
   * Authentication
   * Database
