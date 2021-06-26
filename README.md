@@ -12,9 +12,9 @@
 
 - [X] Lesson 1
 - [X] Lesson 2
-- [ ] Lesson 3
-- [ ] Lesson 4
-- [ ] Lesson 5
+- [X] Lesson 3
+- [X] Lesson 4
+- [X] Lesson 5
 - [ ] Deploy
 
 ## 💻 Prerequisites
