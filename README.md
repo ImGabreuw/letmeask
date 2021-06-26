@@ -15,7 +15,13 @@
 - [X] Lesson 3
 - [X] Lesson 4
 - [X] Lesson 5
-- [ ] Deploy
+- [X] Deploy
+- [ ] Responsiveness
+- [ ] Dark theme
+- [ ] PWA
+- [ ] Others database (**supabase** / **firestore**)
+- [ ] Style Components
+- [ ] ESLint, Prettier (**RocketSeat**)
 
 ## 💻 Prerequisites
 
@@ -32,6 +38,7 @@
 * Firebase
   * Authentication
   * Database
+  * Deploy
 
 ## 🚀 Installation
 
